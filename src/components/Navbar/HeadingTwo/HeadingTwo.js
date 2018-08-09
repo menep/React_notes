@@ -1,5 +1,4 @@
 import React from "react";
-import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
 
 const headingTwo = props => {
   const style = {
@@ -9,9 +8,7 @@ const headingTwo = props => {
     }
   }
   return (
-    <Auxiliary>
       <h2 style={style.heading}>React Notes</h2>
-    </Auxiliary>
   );
 };
 
