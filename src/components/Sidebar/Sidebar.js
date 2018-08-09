@@ -5,7 +5,7 @@ const sidebar = props => {
   const style = {
     container: {
       width: "30%",
-      borderRight: '1px solid #ccc'
+      borderRight: '1px solid #ddd'
     },
     heading: {
       fontSize: "2.0rem",

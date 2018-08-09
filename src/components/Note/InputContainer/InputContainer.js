@@ -1,6 +1,6 @@
 import React from "react";
 import Aux from "../../hoc/Auxiliary/Auxiliary";
-import Button from '../../Button/Button';
+import Button from "../../Button/Button";
 
 const inputContainer = props => {
   const style = {
@@ -14,7 +14,7 @@ const inputContainer = props => {
       fontSize: "1.5rem",
       lineHeight: "2.5rem",
       padding: "1rem",
-      border: "none",
+      border: "none"
     }
   };
 
@@ -25,7 +25,7 @@ const inputContainer = props => {
         value={props.value}
         onChange={props.change}
       />
-      <div>
+      <div style={{ height: "10rem" }}>
         <Button clicked={props.clicked} />
       </div>
     </Aux>

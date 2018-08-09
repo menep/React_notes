@@ -8,8 +8,6 @@ const button = props => {
       border: "2px solid orange",
       backgroundColor: "#fff",
       boxSizing: "border-box",
-      postion: "relative",
-      right: "1rem"
   }
 
   return (
